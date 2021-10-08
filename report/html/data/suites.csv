@@ -1,0 +1,85 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 14 13:54:50 CST 2021","Tue Sep 14 13:54:54 CST 2021","4095","","test_book2","TestBook2","","","test_login_book[datas1]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:54:50 CST 2021","Tue Sep 14 13:54:50 CST 2021","0","","test_book2","TestBook2","","","test_login_book[datas0]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:56:14 CST 2021","Tue Sep 14 13:56:18 CST 2021","4090","tests","test_book2","TestBook2","","","test_login_book[datas3]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:56:18 CST 2021","Tue Sep 14 13:56:22 CST 2021","4071","tests","test_book2","TestBook2","","","test_login_book[datas4]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:55:06 CST 2021","Tue Sep 14 13:55:10 CST 2021","4081","","test_book2","TestBook2","","","test_login_book[datas5]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:55:02 CST 2021","Tue Sep 14 13:55:06 CST 2021","4089","","test_book2","TestBook2","","","test_login_book[datas4]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"passed","Tue Sep 14 13:56:10 CST 2021","Tue Sep 14 13:56:14 CST 2021","4103","tests","test_book2","TestBook2","","","test_login_book[datas2]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:56:05 CST 2021","Tue Sep 14 13:56:05 CST 2021","0","tests","test_book2","TestBook2","","","test_login_book[datas0]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"passed","Tue Sep 14 13:56:05 CST 2021","Tue Sep 14 13:56:10 CST 2021","4110","tests","test_book2","TestBook2","","","test_login_book[datas1]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:54:58 CST 2021","Tue Sep 14 13:55:02 CST 2021","4112","","test_book2","TestBook2","","","test_login_book[datas3]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"passed","Tue Sep 14 13:54:54 CST 2021","Tue Sep 14 13:54:58 CST 2021","4085","","test_book2","TestBook2","","","test_login_book[datas2]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"
+"broken","Tue Sep 14 13:56:22 CST 2021","Tue Sep 14 13:56:26 CST 2021","4078","tests","test_book2","TestBook2","","","test_login_book[datas5]","
+		思路：
+		1、先获取到所有前置测试点的测试用例
+		2、执行前置测试点
+		3、获取它的结果信息
+		4、拿它的结果信息替换对应测试点的变量
+		"

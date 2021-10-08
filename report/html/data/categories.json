@@ -1,0 +1,121 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_login_book[datas0]",
+        "uid" : "ef013a9318a6e445",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598890085,
+          "stop" : 1631598890085,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登录', '描述': '登录授权', '请求地址': 'http://localhost:5000/auth', '前置条件': '', '请求方法': 'post', '请求参数类型': 'json', '请求参数': {'username': 'wuya', 'password': 'asd888'}, '期望结果': '', '是否运行': 'y', '请求头': '', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "5beaf46f730c7af9",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598965808,
+          "stop" : 1631598965808,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'login', '模块': '登录', '描述': '登录授权', '请求地址': 'http://localhost:5000/auth', '前置条件': '', '请求方法': 'post', '请求参数类型': 'json', '请求参数': {'username': 'wuya', 'password': 'asd888'}, '期望结果': '', '是否运行': 'y', '请求头': '', '状态码': 200.0}" ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "test_login_book[datas3]",
+        "uid" : "bb88f1ee4c93f874",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598898404,
+          "stop" : 1631598902516,
+          "duration" : 4112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '描述': '查看添加的书籍', '请求地址': 'http://localhost:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "985eb313545978c8",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598902562,
+          "stop" : 1631598906651,
+          "duration" : 4089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_004', '模块': '书籍管理系统', '描述': '编辑书籍信息', '请求地址': 'http://localhost:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': {'author': '无涯', 'done': True, 'name': 'API测试实战'}, '期望结果': '\"status\": 1008', '是否运行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas5]",
+        "uid" : "9e01589526491092",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598906691,
+          "stop" : 1631598910772,
+          "duration" : 4081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_005', '模块': '书籍管理系统', '描述': '删除书籍信息', '请求地址': 'http://localhost:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '\"status\": 1009', '是否运行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "c87b616c325ab5c5",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598974164,
+          "stop" : 1631598978254,
+          "duration" : 4090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '描述': '查看添加的书籍', '请求地址': 'http://localhost:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "a03752cd91ddb927",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598978299,
+          "stop" : 1631598982370,
+          "duration" : 4071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_004', '模块': '书籍管理系统', '描述': '编辑书籍信息', '请求地址': 'http://localhost:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': {'author': '无涯', 'done': True, 'name': 'API测试实战'}, '期望结果': '\"status\": 1008', '是否运行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas5]",
+        "uid" : "59ca2309ad8978ba",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631598982406,
+          "stop" : 1631598986484,
+          "duration" : 4078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_005', '模块': '书籍管理系统', '描述': '删除书籍信息', '请求地址': 'http://localhost:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '\"status\": 1009', '是否运行': 'y', '请求头': {'Authorization': 'JWT {token}'}, '状态码': 200.0}" ]
+      } ],
+      "uid" : "7bcaf70ebf758f58bb51e7ee5ff79f52"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

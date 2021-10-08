@@ -1,0 +1,13 @@
+login:
+  username: wuya
+  password: asd888
+
+book_002:
+  author: wuya
+  done: True
+  name: API测试实战
+
+book_004:
+  author: 无涯
+  done: True
+  name: API测试实战

@@ -1,0 +1,144 @@
+#有效等价类：男性用户登陆成功
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18
+  sex: 男
+expect: 无涯
+---
+#有效等价类：女性用户登陆成功，年龄为空
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  sex: 女
+expect: 无涯
+---
+#有效等价类：用户登陆成功，性别和年龄都为空
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+expect: 无涯
+---
+#无效等价类：用户名为空
+url: http://localhost:5000/login/
+method: post
+data:
+  password: asd888
+  age: 18
+  sex: 男
+expect: 用户名不能为空
+---
+#无效等价类：密码为空
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  age: 18
+  sex: 男
+expect: 密码不能为空
+---
+#无效等价类：年龄是负数
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: -18
+  sex: 女
+expect: 年龄必须为正整数
+---
+#无效等价类：年龄是0
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 0
+  sex: 女
+expect: 年龄必须为正整数
+---
+#无效等价类：年龄是浮点数
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18.0
+  sex: 女
+expect: 年龄必须为正整数
+---
+#无效等价类：年龄是字符串
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: asd88
+  sex: 女
+expect: 年龄必须为正整数
+---
+#无效等价类：年龄是布尔类型
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: True
+  sex: 女
+expect: 年龄必须为正整数
+---
+#无效等价类：性别不是男或女
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18
+  sex: 未知
+expect: 性别只能是男或者女
+---
+#无效等价类：性别是包含了男或女的字符串
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18
+  sex: 男女123
+expect: 性别只能是男或者女
+---
+#无效等价类：性别是整型
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18
+  sex: 10
+expect: 性别只能是男或者女
+---
+#无效等价类：性别是浮点数
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18
+  sex: 1.0
+expect: 性别只能是男或者女
+---
+#无效等价类：性别是布尔型
+url: http://localhost:5000/login/
+method: post
+data:
+  username: 无涯
+  password: asd888
+  age: 18
+  sex: True
+expect: 性别只能是男或者女
